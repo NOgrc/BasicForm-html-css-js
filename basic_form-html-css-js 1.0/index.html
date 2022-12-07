@@ -1,0 +1,42 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript form</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./index.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <form id="form" action="/">
+            <h1>FORM </h1>
+            <div class="input-control">
+                <label for="username">Kullanıcı Adı:*</label>
+                <input id="username" name="username" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email">E-mail:*</label>
+                <input id="email" name="email" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="age">Yaş:*</label>
+                <input id="age" name="age" type="number">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="message">Mesaj:</label>
+                <input id="message" name="message" type="message">
+                <div class="error"></div>
+            </div>
+            <button type="submit">Kayıt Ol</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
